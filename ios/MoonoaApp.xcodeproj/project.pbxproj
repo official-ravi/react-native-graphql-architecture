@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* rickmortyshopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rickmortyshopTests.m */; };
+		00E356F31AD99517003FC87E /* MoonoaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MoonoaAppTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		3E894D120DEE6F373E782800 /* libPods-rickmortyshop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9984046674F038A2B89A1CF /* libPods-rickmortyshop.a */; };
-		7D4D879A1809AD1ABD486124 /* libPods-rickmortyshop-rickmortyshopTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B5EBADD917715A51247863 /* libPods-rickmortyshop-rickmortyshopTests.a */; };
+		3E894D120DEE6F373E782800 /* libPods-MoonoaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9984046674F038A2B89A1CF /* libPods-MoonoaApp.a */; };
+		7D4D879A1809AD1ABD486124 /* libPods-MoonoaApp-MoonoaAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B5EBADD917715A51247863 /* libPods-MoonoaApp-MoonoaAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -22,28 +22,28 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = rickmortyshop;
+			remoteInfo = MoonoaApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* rickmortyshopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rickmortyshopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* MoonoaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoonoaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* rickmortyshopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rickmortyshopTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* rickmortyshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rickmortyshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = rickmortyshop/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = rickmortyshop/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = rickmortyshop/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rickmortyshop/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = rickmortyshop/main.m; sourceTree = "<group>"; };
-		2A0652246BDE2BC62E842939 /* Pods-rickmortyshop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rickmortyshop.debug.xcconfig"; path = "Target Support Files/Pods-rickmortyshop/Pods-rickmortyshop.debug.xcconfig"; sourceTree = "<group>"; };
-		76B5EBADD917715A51247863 /* libPods-rickmortyshop-rickmortyshopTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rickmortyshop-rickmortyshopTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = rickmortyshop/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		967F8356670ED835B982B9B1 /* Pods-rickmortyshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rickmortyshop.release.xcconfig"; path = "Target Support Files/Pods-rickmortyshop/Pods-rickmortyshop.release.xcconfig"; sourceTree = "<group>"; };
-		CBEC42EADB00508E0E69A135 /* Pods-rickmortyshop-rickmortyshopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rickmortyshop-rickmortyshopTests.release.xcconfig"; path = "Target Support Files/Pods-rickmortyshop-rickmortyshopTests/Pods-rickmortyshop-rickmortyshopTests.release.xcconfig"; sourceTree = "<group>"; };
-		E9984046674F038A2B89A1CF /* libPods-rickmortyshop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rickmortyshop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* MoonoaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoonoaAppTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* MoonoaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoonoaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MoonoaApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MoonoaApp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MoonoaApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MoonoaApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MoonoaApp/main.m; sourceTree = "<group>"; };
+		2A0652246BDE2BC62E842939 /* Pods-MoonoaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoonoaApp.debug.xcconfig"; path = "Target Support Files/Pods-MoonoaApp/Pods-MoonoaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		76B5EBADD917715A51247863 /* libPods-MoonoaApp-MoonoaAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoonoaApp-MoonoaAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MoonoaApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		967F8356670ED835B982B9B1 /* Pods-MoonoaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoonoaApp.release.xcconfig"; path = "Target Support Files/Pods-MoonoaApp/Pods-MoonoaApp.release.xcconfig"; sourceTree = "<group>"; };
+		CBEC42EADB00508E0E69A135 /* Pods-MoonoaApp-MoonoaAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoonoaApp-MoonoaAppTests.release.xcconfig"; path = "Target Support Files/Pods-MoonoaApp-MoonoaAppTests/Pods-MoonoaApp-MoonoaAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9984046674F038A2B89A1CF /* libPods-MoonoaApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoonoaApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F88575F89E4FEBDF3355ED40 /* Pods-rickmortyshop-rickmortyshopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rickmortyshop-rickmortyshopTests.debug.xcconfig"; path = "Target Support Files/Pods-rickmortyshop-rickmortyshopTests/Pods-rickmortyshop-rickmortyshopTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F88575F89E4FEBDF3355ED40 /* Pods-MoonoaApp-MoonoaAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoonoaApp-MoonoaAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MoonoaApp-MoonoaAppTests/Pods-MoonoaApp-MoonoaAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D4D879A1809AD1ABD486124 /* libPods-rickmortyshop-rickmortyshopTests.a in Frameworks */,
+				7D4D879A1809AD1ABD486124 /* libPods-MoonoaApp-MoonoaAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,20 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E894D120DEE6F373E782800 /* libPods-rickmortyshop.a in Frameworks */,
+				3E894D120DEE6F373E782800 /* libPods-MoonoaApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* rickmortyshopTests */ = {
+		00E356EF1AD99517003FC87E /* MoonoaAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* rickmortyshopTests.m */,
+				00E356F21AD99517003FC87E /* MoonoaAppTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = rickmortyshopTests;
+			path = MoonoaAppTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -83,7 +83,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* rickmortyshop */ = {
+		13B07FAE1A68108700A75B9A /* MoonoaApp */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -93,15 +93,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = rickmortyshop;
+			name = MoonoaApp;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				E9984046674F038A2B89A1CF /* libPods-rickmortyshop.a */,
-				76B5EBADD917715A51247863 /* libPods-rickmortyshop-rickmortyshopTests.a */,
+				E9984046674F038A2B89A1CF /* libPods-MoonoaApp.a */,
+				76B5EBADD917715A51247863 /* libPods-MoonoaApp-MoonoaAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,9 +116,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* rickmortyshop */,
+				13B07FAE1A68108700A75B9A /* MoonoaApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* rickmortyshopTests */,
+				00E356EF1AD99517003FC87E /* MoonoaAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				8B458B059E46314AF6E55EC3 /* Pods */,
@@ -131,8 +131,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* rickmortyshop.app */,
-				00E356EE1AD99517003FC87E /* rickmortyshopTests.xctest */,
+				13B07F961A680F5B00A75B9A /* MoonoaApp.app */,
+				00E356EE1AD99517003FC87E /* MoonoaAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		8B458B059E46314AF6E55EC3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2A0652246BDE2BC62E842939 /* Pods-rickmortyshop.debug.xcconfig */,
-				967F8356670ED835B982B9B1 /* Pods-rickmortyshop.release.xcconfig */,
-				F88575F89E4FEBDF3355ED40 /* Pods-rickmortyshop-rickmortyshopTests.debug.xcconfig */,
-				CBEC42EADB00508E0E69A135 /* Pods-rickmortyshop-rickmortyshopTests.release.xcconfig */,
+				2A0652246BDE2BC62E842939 /* Pods-MoonoaApp.debug.xcconfig */,
+				967F8356670ED835B982B9B1 /* Pods-MoonoaApp.release.xcconfig */,
+				F88575F89E4FEBDF3355ED40 /* Pods-MoonoaApp-MoonoaAppTests.debug.xcconfig */,
+				CBEC42EADB00508E0E69A135 /* Pods-MoonoaApp-MoonoaAppTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -152,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* rickmortyshopTests */ = {
+		00E356ED1AD99517003FC87E /* MoonoaAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rickmortyshopTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MoonoaAppTests" */;
 			buildPhases = (
 				AD1B4CDB20617CFB0C58171A /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -168,14 +168,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = rickmortyshopTests;
-			productName = rickmortyshopTests;
-			productReference = 00E356EE1AD99517003FC87E /* rickmortyshopTests.xctest */;
+			name = MoonoaAppTests;
+			productName = MoonoaAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* MoonoaAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* rickmortyshop */ = {
+		13B07F861A680F5B00A75B9A /* MoonoaApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rickmortyshop" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MoonoaApp" */;
 			buildPhases = (
 				E75E60B95E777723FB0460B6 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -190,9 +190,9 @@
 			);
 			dependencies = (
 			);
-			name = rickmortyshop;
-			productName = rickmortyshop;
-			productReference = 13B07F961A680F5B00A75B9A /* rickmortyshop.app */;
+			name = MoonoaApp;
+			productName = MoonoaApp;
+			productReference = 13B07F961A680F5B00A75B9A /* MoonoaApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rickmortyshop" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MoonoaApp" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* rickmortyshop */,
-				00E356ED1AD99517003FC87E /* rickmortyshopTests */,
+				13B07F861A680F5B00A75B9A /* MoonoaApp */,
+				00E356ED1AD99517003FC87E /* MoonoaAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,15 +271,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rickmortyshop/Pods-rickmortyshop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MoonoaApp/Pods-MoonoaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rickmortyshop/Pods-rickmortyshop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MoonoaApp/Pods-MoonoaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rickmortyshop/Pods-rickmortyshop-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoonoaApp/Pods-MoonoaApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AD1B4CDB20617CFB0C58171A /* [CP] Check Pods Manifest.lock */ = {
@@ -297,7 +297,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rickmortyshop-rickmortyshopTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MoonoaApp-MoonoaAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -310,15 +310,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rickmortyshop-rickmortyshopTests/Pods-rickmortyshop-rickmortyshopTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MoonoaApp-MoonoaAppTests/Pods-MoonoaApp-MoonoaAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rickmortyshop-rickmortyshopTests/Pods-rickmortyshop-rickmortyshopTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MoonoaApp-MoonoaAppTests/Pods-MoonoaApp-MoonoaAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rickmortyshop-rickmortyshopTests/Pods-rickmortyshop-rickmortyshopTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoonoaApp-MoonoaAppTests/Pods-MoonoaApp-MoonoaAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E75E60B95E777723FB0460B6 /* [CP] Check Pods Manifest.lock */ = {
@@ -336,7 +336,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-rickmortyshop-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MoonoaApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -349,15 +349,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rickmortyshop-rickmortyshopTests/Pods-rickmortyshop-rickmortyshopTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MoonoaApp-MoonoaAppTests/Pods-MoonoaApp-MoonoaAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rickmortyshop-rickmortyshopTests/Pods-rickmortyshop-rickmortyshopTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MoonoaApp-MoonoaAppTests/Pods-MoonoaApp-MoonoaAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rickmortyshop-rickmortyshopTests/Pods-rickmortyshop-rickmortyshopTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoonoaApp-MoonoaAppTests/Pods-MoonoaApp-MoonoaAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FA140B23AC10A6DBCC8EC130 /* [CP] Copy Pods Resources */ = {
@@ -366,15 +366,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rickmortyshop/Pods-rickmortyshop-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MoonoaApp/Pods-MoonoaApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-rickmortyshop/Pods-rickmortyshop-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-MoonoaApp/Pods-MoonoaApp-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rickmortyshop/Pods-rickmortyshop-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoonoaApp/Pods-MoonoaApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -403,7 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* rickmortyshopTests.m in Sources */,
+				00E356F31AD99517003FC87E /* MoonoaAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +421,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* rickmortyshop */;
+			target = 13B07F861A680F5B00A75B9A /* MoonoaApp */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,14 +429,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F88575F89E4FEBDF3355ED40 /* Pods-rickmortyshop-rickmortyshopTests.debug.xcconfig */;
+			baseConfigurationReference = F88575F89E4FEBDF3355ED40 /* Pods-MoonoaApp-MoonoaAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = rickmortyshopTests/Info.plist;
+				INFOPLIST_FILE = MoonoaAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,17 +450,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rickmortyshop.app/rickmortyshop";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoonoaApp.app/MoonoaApp";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBEC42EADB00508E0E69A135 /* Pods-rickmortyshop-rickmortyshopTests.release.xcconfig */;
+			baseConfigurationReference = CBEC42EADB00508E0E69A135 /* Pods-MoonoaApp-MoonoaAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = rickmortyshopTests/Info.plist;
+				INFOPLIST_FILE = MoonoaAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -474,19 +474,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rickmortyshop.app/rickmortyshop";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoonoaApp.app/MoonoaApp";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A0652246BDE2BC62E842939 /* Pods-rickmortyshop.debug.xcconfig */;
+			baseConfigurationReference = 2A0652246BDE2BC62E842939 /* Pods-MoonoaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = rickmortyshop/Info.plist;
+				INFOPLIST_FILE = MoonoaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,7 +497,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = rickmortyshop;
+				PRODUCT_NAME = MoonoaApp;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,12 +506,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 967F8356670ED835B982B9B1 /* Pods-rickmortyshop.release.xcconfig */;
+			baseConfigurationReference = 967F8356670ED835B982B9B1 /* Pods-MoonoaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = rickmortyshop/Info.plist;
+				INFOPLIST_FILE = MoonoaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,7 +522,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = rickmortyshop;
+				PRODUCT_NAME = MoonoaApp;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -654,7 +654,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "rickmortyshopTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MoonoaAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -663,7 +663,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "rickmortyshop" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MoonoaApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -672,7 +672,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "rickmortyshop" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MoonoaApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

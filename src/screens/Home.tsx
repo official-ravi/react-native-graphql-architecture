@@ -17,7 +17,7 @@ const Home = () => {
 
   useEffect(() => {
     const subscription = RNShake.addListener(() => {
-      setPlanetId((Math.floor(Math.random() * 10) + 1).toString());
+      setPlanetId((Math.floor(Math.random() * 20) + 1).toString());
     })
 
     return () => {

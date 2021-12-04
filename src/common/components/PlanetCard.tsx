@@ -19,9 +19,11 @@ const PlanetCard: React.FC<Props> = ({ data }) => {
         <View style={{ borderColor: '#fff', borderWidth: 1, paddingVertical: 20, paddingHorizontal: 30, marginTop: 30 }}>
           <Text style={styles.movieNameText}>{data.name}</Text>
           <View style={{ flexDirection: 'column', paddingVertical: 20 }}>
-            {data?.filmConnection?.films?.map((film, index) => (
-              <Text style={styles.subText}>{`${index + 1}.  ${film?.title}`}</Text>
-            ))}
+            {data?.filmConnection?.films?.length === 0
+              ? <Text style={styles.subText}>{`No film connection found\nrelated to this planet!`}</Text>
+              : data?.filmConnection?.films?.map((film, index) => (
+                <Text key={index} style={styles.subText}>{`${index + 1}.  ${film?.title}`}</Text>
+              ))}
           </View>
         </View>
       </View>

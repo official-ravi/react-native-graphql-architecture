@@ -1,10 +1,8 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-const Stack = createNativeStackNavigator();
-
+import React from 'react';
 import Home from './screens/Home';
 
+const Stack = createNativeStackNavigator();
 
 const Routes: React.FC = () => {
   return (
@@ -20,17 +18,4 @@ const Routes: React.FC = () => {
 };
 export default Routes;
 
-const styles = StyleSheet.create({
-  badgeIconView: {
-    position: 'relative',
-  },
-  badge: {
-    position: 'absolute',
-    zIndex: 10,
-    left: 24,
-    bottom: 20,
-    padding: 1,
-    borderRadius: 20,
-    fontSize: 14,
-  },
-});
+

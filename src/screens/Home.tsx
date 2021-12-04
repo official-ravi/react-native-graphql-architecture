@@ -1,16 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import {
-  ActivityIndicator,
-  FlatList,
-  StyleSheet,
-  View,
-  Text,
+  ActivityIndicator, StyleSheet,
+  View
 } from 'react-native';
 import RNShake from 'react-native-shake';
-
-import { Planet, useGetPlanetsQuery, useGetPlanetByIdQuery } from '../common/generated/graphql';
-
+import { Planet, useGetPlanetByIdQuery } from '../common/generated/graphql';
 import PlanetCard from './../common/components/PlanetCard';
+
+
 
 const Home = () => {
   const [planetId, setPlanetId] = useState<string | null>('1');

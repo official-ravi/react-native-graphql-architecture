@@ -1,0 +1,15 @@
+query GetPlanets {
+  allPlanets {
+    planets {
+      id
+      name
+      filmConnection {
+        films {
+          title
+          episodeID
+          releaseDate
+        }
+      }
+    }
+  }
+}

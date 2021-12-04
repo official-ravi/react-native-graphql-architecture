@@ -1,0 +1,17 @@
+query GetPlanetById($planetID: ID) {
+  planet(planetID: $planetID) {
+    id
+    name
+    created
+    edited
+    filmConnection {
+      films {
+        id
+        title
+        episodeID
+        director
+        releaseDate
+      }
+    }
+  }
+}
